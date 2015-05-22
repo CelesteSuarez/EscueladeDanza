@@ -9,10 +9,6 @@
 	width: 20%;
 }
 
-.container{
-	padding-top: 2%;
-}
-
 /*Fondo*/
 
 .fondo{
@@ -32,7 +28,6 @@ nav.navbar.navbar-default {
 }
 
 h1.text-center.text-white {
-  color: #86E2D5;
   font-size: 50px;
   font-family: serif;
   padding-top: 2%;
@@ -43,4 +38,15 @@ h1.text-center.text-white {
 	background-color: #E67E22;
 	width: 100%;
 	min-height: 150px;
+}
+
+p{
+	padding: 4%;
+}
+
+/*Footer*/
+
+.footer{
+	background-color: #6C7A89;
+	width: 100%;
 }
