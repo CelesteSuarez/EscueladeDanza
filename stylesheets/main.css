@@ -5536,6 +5536,9 @@ button.close {
 .logo {
   width: 20%; }
 
+.container {
+  padding-top: 2%; }
+
 /*Fondo*/
 .fondo {
   background-image: url(../img/banner.jpeg);
@@ -5556,5 +5559,10 @@ h1.text-center.text-white {
   font-family: serif;
   padding-top: 2%;
   margin-top: 0; }
+
+.nosotros {
+  background-color: #E67E22;
+  width: 100%;
+  min-height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
