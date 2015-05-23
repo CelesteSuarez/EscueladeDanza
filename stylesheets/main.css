@@ -5585,6 +5585,19 @@ p {
   width: 55%;
   margin: 0 auto; }
 
+/*Blog*/
+li {
+  list-style: none; }
+
+.categoria {
+  background-color: #eeeeee; }
+  .categoria img.border {
+    position: relative;
+    bottom: 12px;
+    left: 36%; }
+    .categoria img.border .categoria ul {
+      padding: 28px 21px; }
+
 /*Footer*/
 .footer {
   background-color: #6C7A89;
