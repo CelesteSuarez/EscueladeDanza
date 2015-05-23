@@ -5530,6 +5530,12 @@ button.close {
 .serif {
   font-family: serif; }
 
+.text-celeste {
+  color: #3498db; }
+
+.text-gray {
+  color: gray; }
+
 /* GLOBAL */
 * {
   box-sizing: border-box;
@@ -5597,6 +5603,10 @@ li {
     left: 36%; }
     .categoria img.border .categoria ul {
       padding: 28px 21px; }
+
+.banner-blog {
+  width: 84%;
+  margin: 0 auto; }
 
 /*Footer*/
 .footer {
