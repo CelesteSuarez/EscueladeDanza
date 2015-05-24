@@ -5581,6 +5581,10 @@ hr {
 p {
   padding: 4%; }
 
+/*Clases*/
+.texto {
+  background-color: red; }
+
 /*Contacto*/
 .contacto {
   width: 100%;

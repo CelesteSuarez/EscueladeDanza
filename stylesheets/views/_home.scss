@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+
 .logo{
 	width: 20%;
 }
@@ -18,8 +19,6 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-
 
 nav.navbar.navbar-default {
   margin-bottom: 0;
@@ -53,6 +52,11 @@ hr{
 
 p{
 	padding: 4%;
+}
+
+/*Clases*/
+.texto{
+  background-color: red;
 }
 
 /*Contacto*/
