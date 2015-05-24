@@ -30,10 +30,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Clases</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#clases">Clases</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -43,18 +43,14 @@
 <h2 class="text-center text-white serif">Escuela de Danza</h2>
 <hr>
 </div>
-<div class="nosotros">
+<div id="nosotros" class="nosotros">
   <div class="container">
     <h2 class="text-center">Nosotros</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Ando Danzando es una escuela de danza dedicada a trabajar con niños, jóvenes, adultos y profesionales, es un espacio creativo y profesional que difunde e intercambia experiencias con bailarines nacionales y extranjeros. Dirigida por reconocidos bailarines del medio de la danza.
+Nuestra Escuela tiene como finalidad incentivar la imaginación, la creatividad y la espontaneidad que todos tenemos dentro a través del movimiento, de la danza; proporcionando también una preparación física adecuada favorable al desarrollo de una técnica Dancística y expresiva.</p>
   </div>
 </div>
-<div class="clases">
+<div id="clases" class="clases">
   <div class="container">
   <h2 class="text-center">Clases</h2>
     <div class="row"><!--INICIO:row-->
@@ -69,7 +65,7 @@
     </div>
   </div>
 </div>
-<div class="contacto">
+<div id="contacto" class="contacto">
   <h2 class="text-center">Contacto</h2>
   <div class="mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.1371210106417!2d-77.058698!3d-12.102763999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9b3700b432f%3A0x3edc161b63c34875!2sEscuela+de+Danza+de+Vania+Mas%C3%ADas+D1!5e0!3m2!1ses!2spe!4v1432314152182" width="500" height="500" frameborder="0" style="border:0"></iframe>
@@ -90,5 +86,21 @@
 	<script src="javascript/b3/collapse.js"></script>
 	<script src="javascript/b3/transition.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top - 0
+          } , 1000);
+          return false;
+          }
+        }
+        });
+      });  
+  </script> 
 	</body>	
 </html>	
