@@ -5527,9 +5527,6 @@ button.close {
 .text-white {
   color: white; }
 
-.serif {
-  font-family: serif; }
-
 .text-celeste {
   color: #3498db; }
 
@@ -5567,8 +5564,10 @@ nav {
 h1.text-center.text-white {
   font-size: 50px;
   font-family: 'Clicker Script';
-  padding-top: 4%;
-  margin-top: 0; }
+  padding-top: 4%; }
+
+h2.text-center.text-white {
+  font-family: 'EB Garamond'; }
 
 hr {
   border: 0;
