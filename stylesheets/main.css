@@ -5533,6 +5533,9 @@ button.close {
 .text-gray {
   color: gray; }
 
+.text-title {
+  font-family: 'Clicker Script'; }
+
 /* GLOBAL */
 * {
   box-sizing: border-box;
@@ -5571,20 +5574,22 @@ h1.text-center.text-white {
   font-family: 'Clicker Script';
   padding-top: 4%; }
 
-h2.text-center.text-white {
+h2.text-center {
   font-family: 'EB Garamond'; }
 
 hr {
   border: 0;
   border-top: 1px dashed #eee; }
 
+/*Nosotros*/
 .nosotros {
   background-color: #E67E62;
   width: 100%;
   min-height: 150px; }
 
 p {
-  padding: 4%; }
+  padding: 4%;
+  font-family: 'EB Garamond'; }
 
 /*Clases*/
 .texto {
