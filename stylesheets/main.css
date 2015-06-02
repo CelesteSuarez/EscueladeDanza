@@ -5556,7 +5556,12 @@ button.close {
 nav {
   margin-bottom: 0;
   width: 100%;
-  position: fixed !important; }
+  position: fixed !important;
+  z-index: 10; }
+
+li {
+  font-family: 'Clicker Script';
+  font-size: 30px; }
 
 .span {
   position: absolute; }
