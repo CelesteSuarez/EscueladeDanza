@@ -5575,7 +5575,9 @@ h1.text-center.text-white {
   padding-top: 4%; }
 
 h2.text-center {
-  font-family: 'EB Garamond'; }
+  font-family: 'Clicker Script' !important;
+  padding-top: 4%;
+  font-size: 30px; }
 
 hr {
   border: 0;
@@ -5590,7 +5592,7 @@ hr {
 p {
   padding: 4%;
   font-family: 'EB Garamond';
-  font-size: 25px; }
+  font-size: 20px; }
 
 /*Clases*/
 .texto {
@@ -5611,6 +5613,11 @@ p {
 /*Blog*/
 li {
   list-style: none; }
+
+h1.text-celeste.text-center {
+  font-size: 50px;
+  font-family: 'Clicker Script';
+  padding-top: 4%; }
 
 .categoria {
   background-color: #eeeeee; }

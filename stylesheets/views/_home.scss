@@ -40,16 +40,17 @@ font-size: 30px;
 	position: absolute;
 }
 
-h1.text-center.text-white {
+h1.text-center.text-white{
   font-size: 50px;
   font-family:'Clicker Script';
   padding-top: 4%;
  }
 
-h2.text-center {
-    font-family: 'Clicker Script';
-
-    }
+h2.text-center{
+    font-family: 'Clicker Script' !important;
+    padding-top: 4%;
+    font-size: 30px;
+  }
 
 hr {
     border: 0;
