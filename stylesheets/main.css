@@ -5572,11 +5572,11 @@ li {
 h1.text-center.text-white {
   font-size: 50px;
   font-family: 'Clicker Script';
-  padding-top: 4%; }
+  padding-top: 4% !important; }
 
 h2.text-center {
   font-family: 'Clicker Script' !important;
-  padding-top: 4%;
+  padding-top: 2%;
   font-size: 40px; }
 
 hr {
@@ -5593,6 +5593,11 @@ p {
   padding: 4%;
   font-family: 'EB Garamond';
   font-size: 20px; }
+
+.contenido {
+  background-color: red;
+  width: 100%;
+  min-height: 150px; }
 
 /*Clases*/
 .texto {
