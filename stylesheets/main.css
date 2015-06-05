@@ -5600,6 +5600,9 @@ p {
   min-height: 150px; }
 
 /*Clases*/
+div#clases {
+  padding-bottom: 3%; }
+
 .texto {
   background-color: red; }
 
