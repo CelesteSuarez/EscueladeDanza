@@ -5536,6 +5536,13 @@ button.close {
 .text-title {
   font-family: 'Clicker Script'; }
 
+.text-padding {
+  padding-top: 2%; }
+
+.plr-0 {
+  padding-left: 0;
+  padding-right: 0; }
+
 /* GLOBAL */
 * {
   box-sizing: border-box;
@@ -5546,6 +5553,13 @@ button.close {
   width: 20%; }
 
 /*Fondo*/
+body {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  padding: 0 !important; }
+
 .fondo {
   background-image: url(../img/banner.jpeg);
   width: 100%;
