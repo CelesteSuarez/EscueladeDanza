@@ -1,6 +1,5 @@
 /* GLOBAL */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +11,11 @@
 
 /*Fondo*/
 body{
+  margin: 0;
+  padding: 0;
+}
+
+.row{
   margin: 0;
   padding: 0;
 }
@@ -71,7 +75,13 @@ hr {
 	background-color: #E67E62;;
 	width: 100%;
 	min-height: 150px;
+  .row {
+    padding: 0;
+    margin: 0;
+  }
 }
+
+
 
 p{
 	padding: 4%;
